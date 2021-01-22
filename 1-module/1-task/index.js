@@ -9,10 +9,8 @@ function factorial(n) {
     return 1;
   } 
   let productOfNumbers = 1;
-
   for(let a = 1; a <= n; ++a) {
     productOfNumbers = productOfNumbers * a;
   }
-
   return productOfNumbers;
 }
