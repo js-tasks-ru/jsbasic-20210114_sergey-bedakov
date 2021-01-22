@@ -13,6 +13,11 @@ function print(text) {
  */
 function isValid(name) {
   // ваш код...
+  
+  if (name && name.length >= 4 && name.indexOf(' ') === -1 ) {
+    return true;
+  }
+    return false;
 }
 
 function sayHello() {
